@@ -1,0 +1,466 @@
+@CHARSET "gb2312";
+@font-face {font-family:ITCEDSCR;
+    src:
+    url('../fonts/ITCEDSCR.TTF');
+}
+
+body {
+    background: url(../images/2.png);
+    overflow-y: scroll;
+}
+
+#head {
+    position: absolute;
+    width: 1024px;
+    height: 100px;
+    left: 50%;
+    margin-left: -512px;
+}
+
+#subhead1 {
+    float: left;
+    width: 700px;
+    height: 100px;
+}
+
+#subhead3 {
+    width: 100%;
+    height: 70px;
+    font-family: 华文行楷;
+    font-size: 60px;
+    font-weight: bold;
+    color: hsla(320, 60%, 60%, 0.5);
+    background-color: hsla(200, 55%, 65%, 0.5);
+}
+
+#menu {
+    width: 100%;
+    height: 30px;
+    background-color: hsla(100, 55%, 65%, 0.5);
+}
+
+#headul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.outmenu {
+    cursor: default;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    float: left;
+    font-family: system;
+    font-size: 16px;
+    background-color: hsla(50, 55%, 65%, 0.5);
+    margin-top: 0px;
+}
+
+#subhead2 {
+    float: left;
+    width: 310px;
+    height: 100px;
+    margin-left: 14px;
+    background-color: black;
+}
+
+#mainbody1 {
+    position: absolute;
+    width: 1024px;
+    height: 640px;
+    left: 50%;
+    margin-left: -512px;
+    margin-top: 105px;
+    display: none;
+}
+
+#mainbody2 {
+    position: absolute;
+    width: 1024px;
+    height: 540px;
+    left: 50%;
+    margin-left: -512px;
+    margin-top: 105px;
+}
+
+
+#messageBlock {
+    float: left;
+    width: 700px;
+    height: 540px;
+}
+
+#listBlock {
+    float: left;
+    width: 310px;
+    height: 540px;
+    margin-left: 14px;
+}
+
+#head1 {
+    width: 700px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: 华文新魏;
+    background-color: hsla(100, 55%, 65%, 0.5);
+}
+
+#head2 {
+    width: 310px;
+    height: 30px;
+    font-size: 22px;
+    padding-top: 4px;
+    font-family: 华文新魏;
+    text-align: center;
+    background-color: hsla(100, 55%, 65%, 0.5);
+}
+
+#currentstate {
+    width: 200px;
+    height: 30px;
+}
+
+#messagebox {
+    width: 698px;
+    height: 384px;
+    border-style: groove;
+    border-width: 1px;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: hsla(150, 55%, 65%, 0.5);
+}
+
+#listofuser {
+    width: 310px;
+    height: 510px;
+    background-color: hsla(100, 55%, 65%, 0.8);
+}
+
+#messagemenu {
+    width: 699px;
+    height: 25px;
+    padding-top: 3px;
+    font-family: 华文新魏;
+    background-color: hsla(100, 55%, 65%, 0.5);
+}
+
+#inputbox {
+    width: 699px;
+    height: 90px;
+    background-color: white;
+}
+
+#messagetext {
+    float: left;
+    width: 590px;
+    height: 86px;
+    background-color: hsla(200, 55%, 65%, 0.1);
+}
+
+#buttonbox {
+    float: left;
+    width: 103px;
+    height: 90px;
+    background-color: hsla(200, 55%, 65%, 0.5);
+}
+
+#send {
+    margin-left: 2px;
+    float: left;
+    width: 100px;
+    height: 86px;
+    float: left;
+}
+
+#fonts {
+    width: 250px;
+}
+
+#size {
+    width: 50px;
+}
+
+#fontcolor {
+    width: 75px;
+}
+
+#loginusertable {
+    width: 310px;
+    border-spacing: 0px;
+    font-family: 华文新魏;
+    font-size: 20px;
+}
+
+#tablehead {
+    width: 310px;
+    font-family: 华文新魏;
+    font-size: 20px;
+}
+
+.tabletitle {
+    width: 100%;
+    heigth: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+.actionbutton {
+    width: 80px;
+    height: 25px;
+    font-family: 华文新魏;
+    font-size: 18px;
+}
+
+#leftmenu {
+    float: left;
+    width: 200px;
+    height: 540px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+    width: 200px;
+}
+
+#head_sculpture {
+    width: 200px;
+    height: 200px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+}
+
+#picture {
+    text-align: center;
+    width: 200px;
+    height: 140px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+    text-align: center;
+}
+
+#simpleinfo {
+    width: 200px;
+    height: 60px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+}
+
+#currentuser {
+    padding-left: 30px;
+    height: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+#currentsex {
+    padding-left: 30px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+#currentbirthdate {
+    text-align: center;
+    float: left;
+    width: 140px;
+    height: 30px;
+}
+
+#content2 {
+    float: left;
+    position: absolute;
+    width: 820px;
+    height: 640px;
+    margin-left: 204px;
+    margin-top: 10px;
+    display: none;
+}
+
+#content2 table {
+    margin-top: 10px;
+    margin-left: 50px;
+    position: absolute;
+    width: 520px;
+    height: 600px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.inputText {
+    height: 30px;
+    width: 100%;
+    background: transparent;
+    border: 1.1px solid #000000;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    font-size: 18px;
+}
+
+#content2 td {
+    text-align: center;
+    font-family: 华文新魏;
+    font-size: 20px;
+}
+
+#TaleTitle {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 50%;
+    margin-left: -200px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 华文新魏;
+    margin-top: 7%;
+}
+
+.button {
+    margin-top: 20px;
+    width: 137px;
+    height: 34px;
+    font-size: 20px;
+    font-family: 华文新魏;
+    border: 0px;
+    background: url("../images/bg26.jpg") no-repeat;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#boy {
+    background-color: hsla(200, 65%, 75%, 0.5);
+}
+
+#girl {
+    background-color: hsla(200, 65%, 75%, 0.5);
+}
+
+#code {
+    float: left;
+    margin-top: 8px;
+    height: 30px;
+    width: 100px;
+    height: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1.1px solid #000000;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+#showcode {
+    float: left;
+    margin-left: 18px;
+}
+
+#myhobby {
+    width: 100%;
+    height: 100px;
+}
+
+#birthyear {
+    width: 80px;
+}
+
+#birthmonth {
+    width: 60px;
+    margin-left: 10px;
+}
+
+#birthday {
+    width: 60px;
+    margin-left: 10px;
+}
+
+#content1 {
+    float: left;
+    position: absolute;
+    width: 820px;
+    height: 640px;
+    margin-left: 204px;
+    margin-top: 10px;
+}
+
+#content1 table {
+    margin-top: 10px;
+    margin-left: 50px;
+    position: absolute;
+    width: 520px;
+    height: 600px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    table-layout: fixed;
+}
+
+#content1 td {
+    padding-left: 4px;
+    font-family: 华文新魏;
+    font-size: 20px;
+}
+
+#content1_title {
+    padding-top: 2px;
+    font-family: 华文新魏;
+    font-size: 25px;
+    width: 520px;
+    height: 30px;
+    background-color: hsla(200, 65%, 75%, 0.5);
+    margin-left: 50px;
+}
+
+#choice li {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 120%
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#dialog {
+    position: absolute;
+    left: 945px;
+    top: 480px;
+    width: 240px;
+    height: 180px;
+    display: none;
+}
+
+#dialogtitle {
+    width: 240;
+    height: 30px;
+    font-size: 22px;
+    background-color: hsla(120, 65%, 75%, 0.5);
+}
+
+#checkmessage {
+    width: 240;
+    height: 150px;
+    background-color: hsla(240, 65%, 75%, 0.5);
+}
+
+#showdialog {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: hsla(240, 65%, 75%, 0.5);
+}
+
